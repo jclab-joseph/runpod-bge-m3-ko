@@ -3,12 +3,8 @@ name: Build and Deploy BGE-m3-ko
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'Dockerfile'
-      - 'requirements.txt'
-      - 'download_model.py'
-      - 'server.py'
-      - 'handler.py'
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 env:
