@@ -1,5 +1,5 @@
-transformers>=4.30.0
-sentence-transformers>=2.2.2
+transformers>=4.48.0
+sentence-transformers>=4.1.0
 fastapi>=0.95.0
 uvicorn>=0.22.0
-runpod>=0.10.0c
+runpod>=0.10.0
