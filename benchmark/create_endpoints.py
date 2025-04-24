@@ -23,7 +23,7 @@ endpoints = {}
 for gpu in gpu_types:
     data = {
         "name": f"bge-m3-ko-{gpu.replace(' ', '-').lower()}",
-        "image": "ghcr.io/jclab-joseph/bge-m3-ko-serverless:latest",
+        "image": "ghcr.io/jclab-joseph/runpod-bge-m3-ko-serverless:latest",
         "gpuCount": 1,
         "gpuType": gpu,
         "containerDiskSizeGB": 10,
