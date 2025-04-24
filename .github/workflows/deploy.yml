@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/runpod-bge-m3-ko-serverless
+  IMAGE_NAME: ${{ github.repository }}-serverless
 
 jobs:
   build-and-push:
